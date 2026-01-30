@@ -1,0 +1,24 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.casekaro</groupId>
+  <artifactId>casekaro-automation</artifactId>
+  <version>1.0</version>
+
+  <dependencies>
+    <!-- Playwright -->
+    <dependency>
+      <groupId>com.microsoft.playwright</groupId>
+      <artifactId>playwright</artifactId>
+      <version>1.42.0</version>
+    </dependency>
+
+    <!-- TestNG -->
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>7.9.0</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

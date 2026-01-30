@@ -1,0 +1,5 @@
+base\BaseTest.class
+pages\ProductPage.class
+pages\CartPage.class
+pages\HomePage.class
+tests\CaseKaroTest.class
