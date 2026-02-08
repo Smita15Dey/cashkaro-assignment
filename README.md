@@ -111,21 +111,36 @@ Responsible for:
 
 This class handles cart validation and data extraction.
 
-### **CaseKaroTest.java**
-Responsible for:
-- Orchestrating the end-to-end test flow
-- Calling page methods in correct sequence
-- Validating final outcomes
-- Printing structured console output
-
-This is the test entry point.
-
 ### **BaseTest.java**
 Responsible for:
 - Setting up Playwright browser instance
 - Initializing pages
 - Managing test lifecycle
 - Cleanup and teardown
+
+### **CaseKaroSteps.java**
+Responsible for:
+- Mapping Cucumber steps to Page Object methods
+- Orchestrating the end-to-end flow using BDD steps
+- Calling setup and teardown
+- Executing business flow in readable Gherkin steps
+
+This class bridges the gap between the feature file (Gherkin) and the page objects, implementing the step definitions.
+
+### **TestRunner.java**
+Responsible for:
+- Running Cucumber feature files using TestNG
+- Connecting feature files with step definitions
+- Managing test execution
+
+This class serves as the entry point for test execution, configuring Cucumber to work with TestNG.
+
+### **casekaro.feature**
+Responsible for:
+- Defining the test scenario in Gherkin (BDD) format
+- Making the test flow readable for both technical and non-technical stakeholders
+
+This feature file documents the test in plain English, ensuring clarity and collaboration between developers and business analysts.
 
 ---
 
@@ -256,6 +271,7 @@ Link     : /products/classic-porsche-911-iphone-16-pro-back-cover?variant=419556
 ## 🎯 Test Features
 
 ✅ **End-to-End Flow:** Complete shopping journey from homepage to cart  
+✅ **Gherkin (BDD) format** BDD with Cucumber feature file
 ✅ **Dynamic Content Handling:** Manages dynamic search results and variant selection  
 ✅ **Multiple Variants:** Adds and validates different material variants  
 ✅ **Cart Validation:** Verifies cart count, pricing, and product links  
