@@ -36,7 +36,7 @@ public class HomePage {
         searchBox.click();
         searchBox.fill("iphone");
 
-        // searchBox.type("iphone", new Locator.TypeOptions().setDelay(120));
+        //searchBox.type("iphone", new Locator.TypeOptions().setDelay(120));
     }
 
     // Step 2: Click iPhone 16 Pro from Real visible results

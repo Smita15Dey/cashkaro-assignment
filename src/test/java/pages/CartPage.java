@@ -13,7 +13,7 @@ public class CartPage {
 
     // VALIDATE 3 ITEMS IN CART
     public void validateThreeItemsInCart() {
-        Locator cartItems = page.locator(".cart-item");
+        Locator cartItems = page.locator(".cart-item"); // cart items have class 'cart-item'
         int count = cartItems.count();
         System.out.println("Items in cart: " + count);
     }
@@ -34,13 +34,13 @@ public class CartPage {
 
             // Material
             String material = item
-                    .locator("dt:has-text('Material') + dd")
+                    .locator("dt:has-text('Material') + dd") // using definition list structure to get material value
                     .textContent()
                     .trim();
 
             // Price
             String price = item
-                    .locator("td.cart-item__details div.product-option")
+                    .locator("td.cart-item__details div.product-option") // price is inside product-option div in details column
                     .first()
                     .textContent()
                     .trim()
@@ -49,7 +49,7 @@ public class CartPage {
             // Product link
             String link = item
                     .locator("a.cart-item__name")
-                    .getAttribute("href");
+                    .getAttribute("href"); // get product link from product name anchor tag
             
             // Print details
             System.out.println("Item " + (i + 1));

@@ -2,4 +2,5 @@ C:\Users\KIIT\Desktop\casekaro-automation\src\test\java\base\BaseTest.java
 C:\Users\KIIT\Desktop\casekaro-automation\src\test\java\pages\CartPage.java
 C:\Users\KIIT\Desktop\casekaro-automation\src\test\java\pages\HomePage.java
 C:\Users\KIIT\Desktop\casekaro-automation\src\test\java\pages\ProductPage.java
-C:\Users\KIIT\Desktop\casekaro-automation\src\test\java\tests\CaseKaroTest.java
+C:\Users\KIIT\Desktop\casekaro-automation\src\test\java\runner\TestRunner.java
+C:\Users\KIIT\Desktop\casekaro-automation\src\test\java\steps\CaseKaroSteps.java

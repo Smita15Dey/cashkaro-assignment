@@ -50,21 +50,32 @@ The focus of this assignment is:
 ```
 casekaro-automation
 │
-├── src
-│   └── test
-│       └── java
-│           ├── base
-│           │   └── BaseTest.java
-│           ├── pages
-│           │   ├── HomePage.java
-│           │   ├── ProductPage.java
-│           │   └── CartPage.java
-│           └── tests
-│               └── CaseKaroTest.java
-├── execution-log.txt   -> Test output captured here
-│
 ├── pom.xml
-└── README.md
+├── README.md
+├── execution-log.txt   -> Test console output captured here
+└── src
+    └── test
+        ├── java
+        │   │
+        │   ├── base
+        │   │   └── BaseTest.java
+        │   │
+        │   ├── pages
+        │   │   ├── HomePage.java
+        │   │   ├── ProductPage.java
+        │   │   └── CartPage.java
+        │   │
+        │   ├── steps
+        │   │   └── CaseKaroSteps.java
+        │   │
+        │   └── runner
+        │       └── TestRunner.java
+        │
+        └── resources
+            └── features
+                └── casekaro.feature
+
+
 ```
 
 ---
