@@ -271,8 +271,8 @@ Link     : /products/classic-porsche-911-iphone-16-pro-back-cover?variant=419556
 ## 🎯 Test Features
 
 ✅ **End-to-End Flow:** Complete shopping journey from homepage to cart  
-✅ **Gherkin (BDD) format** BDD with Cucumber feature file
-✅ **Dynamic Content Handling:** Manages dynamic search results and variant selection  
+✅ **Gherkin (BDD) format:** BDD with Cucumber feature file
+✅**Dynamic Content Handling:** Manages dynamic search results and variant selection  
 ✅ **Multiple Variants:** Adds and validates different material variants  
 ✅ **Cart Validation:** Verifies cart count, pricing, and product links  
 ✅ **Detailed Logging:** Prints structured cart information to console  
